@@ -9,7 +9,7 @@
   * [کلاینت Java](https://github.com/SharifAIChallenge/AIC22-Client-Java)
   * [کلاینت Python](https://github.com/SharifAIChallenge/AIC22-Client-Python)
 
-+ نکته‌ی قابل توجه در مورد کلاینت، این است که برای هر کدام از نیروها، چه دزدها و چه پلیس‌ها، یک بار به طور جداگانه کد کلاینت اجرا می‌شود. در نتیجه نیروها حافظه‌ی مشترکی با یکدیگر ندارند و تنها راه ارتباطی آن‌ها از طریق چت باکس می‌باشد (توضیحات چت‌باکس را در [مستند بازی](TODO.UPDATE.ME) بخوانید).
++ نکته‌ی قابل توجه در مورد کلاینت، این است که برای هر کدام از نیروها، چه دزدها و چه پلیس‌ها، یک بار به طور جداگانه کد کلاینت اجرا می‌شود. در نتیجه نیروها حافظه‌ی مشترکی با یکدیگر ندارند و تنها راه ارتباطی آن‌ها از طریق چت باکس می‌باشد (توضیحات چت‌باکس را در [مستند بازی](https://www.aichallenge.ir/dashboard/doc/2-Game-Doc.md) بخوانید).
 
 ## کلاینت جاوا
 
@@ -96,8 +96,8 @@ TODO: CPP client repository README.md should be updated
 و دیگر تنظیمات بازی شامل نقشه بازی به صورت گراف، turnها و ... است. 
 شما به عنوان شرکت‌کننده نیاز ندارید محتوای این فایل را بفهمید یا تغییر دهید. 
 
-ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC22-Game/tree/main/server) دانلود کنید (فایل server-x.x.x.jar).  
-فایل game.yml را از [ریپوی گیم](TODO.UPDATE.ME) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
+ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC22-Game/tree/main/Server) دانلود کنید (فایل hideandseek-x.x.x.jar).  
+فایل game.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
 سپس سرور را به این شکل اجرا کنید:   
 ```
 java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>"
