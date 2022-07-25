@@ -17,15 +17,15 @@
 
 1. در Intellij، زمانی که کلاینت را به عنوان پروژه maven باز میکنید، مانند تصویر زیر از قسمت `maven -> Lifecycle` گزینه `compile` را انتخاب کنید تا کدهای ارتباط با سرور تولید شوند. اجرای این دستور برای بار اول نیاز به اینترنت دارد و کمی طول می‌کشد. 
 
-![java-client-maven-compile](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-maven-compile.png)
+![java-client-maven-compile](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-maven-compile.png?raw=true)
 
 2. حال از قسمت `project -> target -> generated-sources -> protobuf` بر روی دو پوشه `grpc-java` و `java` کلیک راست کنید و گزینه `Mark Directory as -> Generated Source Root` را انتخاب کنید. دقت کنید که برای هر دو این پوشه‌ها این کار را انجام دهید. 
 
-![java-client-mark-generated](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-mark-generated.png)
+![java-client-mark-generated](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-mark-generated.png?raw=true)
 
 3. در آخر از قسمت `maven -> Lifecycle` گزینه `package` را انتخاب کنید تا فایل `.jar` شما در پوشه `target` ایجاد شود. 
 
-![java-client-maven-package](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-maven-package.png)
+![java-client-maven-package](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/java-client-maven-package.png?raw=true)
 
 هر بار که تغییری در کد کلاینت داده شد، برای اجرا باید یک فایل jar تازه ساخته‌شود. 
 
