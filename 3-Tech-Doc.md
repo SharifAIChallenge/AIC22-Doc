@@ -103,6 +103,12 @@ TODO: CPP client repository README.md should be updated
 java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>"
 ```
 
+همچنین اگر قصد دارید که لاگ بازی را در محیط گرافیک مشاهده کنید، باید یک فایل دیگر که شامل اطلاعات گرافیکی نقشه است را به سرور پاس دهید. فایل map.json را از [ریپوی گیم](https://github.com/sharifAIChallenge/aic22-game) دریافت کنید و آدرس آن را به عنوان آرگومان چهارم به سرور پاس دهید. 
+
+```
+java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>" "<path to map.json>"
+```
+
 ## توابع و کلاس‌های اصلی کلاینت
 
 ### Proto
