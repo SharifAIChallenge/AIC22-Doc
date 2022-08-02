@@ -15,13 +15,13 @@
 در طول بازی دزدها فقط در تعداد خاصی از نوبت ها برای پلیس‌های حریف نمایان هستند.
 هر دزد در ابتدا مقداری پول دارد که به ازای همه دزدها یکسان است و در هر نوبت مقدار پول دریافت می‌کند که به طور مشابه برای همه‌ی دزدها یکسان است.
 
-![rubber](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/robber.jpg?raw=true)
+![rubber](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/police.jpg?raw=true)
 
 ## پلیس
 هر بازیکن تعدادی پلیس دارد که باید با استفاده از آن‌ها دزدهای بازیکن حریف را بگیرد و اگر یکی از پلیس‌های خودی در هر لحظه‌ای بر روی یکی از دزدهای حریف قرار بگیرد آن دزد دستگیر خواهد شد.
 هر پلیس در ابتدا مقداری پول دارد که به ازای همه پلیس‌ها یکسان است و در هر نوبت مقداری پول دریافت می‌کند که به طور مشابه برای همه‌ی پلیس‌ها یکسان است.
 
-![police](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/police.jpg?raw=true)
+![police](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/robber.jpg?raw=true)
 
 
 # مپ
