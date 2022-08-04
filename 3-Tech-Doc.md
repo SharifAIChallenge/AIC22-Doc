@@ -177,6 +177,11 @@ message GameView {
   
 ![bar](https://github.com/SharifAIChallenge/AIC22-Doc/blob/main/images/Bar.png?raw=true)
 
+## کنترل بازی با کلید های کیبورد
++ کلید های جهت راست و چپ: رفتن به نوبت بعدی و قبلی
++ کلید Space: شروع و توقف پخش خودکار
++ کلید N: پخش حرکت بعدی
++ 
 ## نکات
 با استفاده از ماوس می‌توان نقشه را جابه‌جا کرد.
 همچنین امکان zoom in و zoom out روی نقشه نیز وجود دارد.
