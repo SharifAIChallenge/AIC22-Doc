@@ -37,7 +37,7 @@ java --version
 درصورتی که در جواب، ورژن جاوا نوشته شده باشد، به این معناست که شما جاوا را در دستگاه خود دارید. درغیر اینصورت و در صورت دادن ارور، بایستی با استفاده از [این لینک](https://java.com/en/download/help/download_options.html) جاوا را نصب کنید.  
 
 ```bash
-java -jar <path to server jar file> --first-team=<path to first client executable file> --second-team=<path to first client executable file> <path to map.yml>
+java -jar <path to server jar file> --first-team=<path to first client executable file> --second-team=<path to first client executable file> <path to map.yml> <path to map.json>
 ```
 برای مثال اگر کلاینت شما در آدرس 
 `/home/parsa/Desktop/AIC2022/AIC2022-Client-Java/AIC2022-Client-Java.jar`
