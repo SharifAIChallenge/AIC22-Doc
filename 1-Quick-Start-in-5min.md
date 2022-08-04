@@ -19,6 +19,7 @@ unzip
   * [کلاینت Cpp](https://github.com/SharifAIChallenge/AIC22-Client-Cpp)
   * [کلاینت Java](https://github.com/SharifAIChallenge/AIC22-Client-Java)
   * [کلاینت Python](https://github.com/SharifAIChallenge/AIC22-Client-Python)
+  
 دقت کنید که در این جا کلاینت را بیلد کنید (اگر از جاوا استفاده میکنید به صورت jar پکیج کنید) تا در مرحله بعد از آن استفاده کنید. 
 
 
