@@ -63,3 +63,4 @@
 |GameView.visibleAgents |  تمام یونیت‌هایی که دیده می‌شوند   |
 |GameView.chatSettings.chatCostPerCharacter |  هزینه چت |
 |GameView.chatSettings.chatBoxMaxSize |  حداکثر طول پیام در چت|
+|محدودیت زمان هر نوبت برای ایجنت‌ها |  1 ثانیه|
