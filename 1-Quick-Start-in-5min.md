@@ -37,6 +37,8 @@ java --version
 ```
 درصورتی که در جواب، ورژن جاوا نوشته شده باشد، به این معناست که شما جاوا را در دستگاه خود دارید. درغیر اینصورت و در صورت دادن ارور، بایستی با استفاده از [این لینک](https://java.com/en/download/help/download_options.html) جاوا را نصب کنید.  
 
+سپس با دستور زیر سرور را اجرا کنید.
+
 ```bash
 java -jar <path to server jar file> --first-team=<path to first client executable file> --second-team=<path to first client executable file> <path to map.yml> <path to map.json>
 ```
