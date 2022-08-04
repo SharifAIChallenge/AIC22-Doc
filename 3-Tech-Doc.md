@@ -101,7 +101,7 @@ docker run --rm -v <path to your source code>:/src -it parsa2820/aic22-client-cp
 شما به عنوان شرکت‌کننده نیاز ندارید محتوای این فایل را بفهمید یا تغییر دهید. 
 
 ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC22-Game/tree/main/Server) دانلود کنید (فایل hideandseek-x.x.x.jar).  
-فایل game.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
+فایل map.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
 سپس سرور را به این شکل اجرا کنید:   
 ```
 java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>"
