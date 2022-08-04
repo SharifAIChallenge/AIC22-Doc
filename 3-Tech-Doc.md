@@ -107,7 +107,7 @@ docker run --rm -v <path to your source code>:/src -it parsa2820/aic22-client-cp
 java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>"
 ```
 
-دقت کنید اگر میخواهید بعدا لاگ تولید شده را در محیط گرافیکی مشاهده کنید، باید پارامتر دیگری که مسیر فایل map.json را نیز به دستور اجرای سرور اضافه کنید. این فایل نیز در همان مخزن بازی موجود است. به عبارت دیگر دستور اجرای سرور به صورت زیر می‌شود.
+دقت کنید اگر میخواهید بعدا لاگ تولید شده را در محیط گرافیکی مشاهده کنید، باید پارامتر دیگری که مسیر فایل map.json است را نیز به دستور اجرای سرور اضافه کنید. این فایل نیز در همان مخزن بازی موجود است. به عبارت دیگر دستور اجرای سرور به صورت زیر می‌شود.
 
 ```
 java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>" "<path to map.json file>"
