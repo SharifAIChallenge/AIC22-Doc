@@ -104,7 +104,13 @@ docker run --rm -v <path to your source code>:/src -it parsa2820/aic22-client-cp
 فایل map.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
 سپس سرور را به این شکل اجرا کنید:   
 ```
-java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>"
+java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>"
+```
+
+دقت کنید اگر میخواهید بعدا لاگ تولید شده را در محیط گرافیکی مشاهده کنید، باید پارامتر دیگری که مسیر فایل map.json را نیز به دستور اجرای سرور اضافه کنید. این فایل نیز در همان مخزن بازی موجود است. به عبارت دیگر دستور اجرای سرور به صورت زیر می‌شود.
+
+```
+java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>" "<path to map.json file>"
 ```
 
 ## توابع و کلاس‌های اصلی کلاینت
