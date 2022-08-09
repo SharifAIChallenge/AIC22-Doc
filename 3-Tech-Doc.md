@@ -56,8 +56,8 @@ pyinstaller --onefile /path/to/Client.py
 numpy==1.20.2
 pandas==1.2.3
 scikit-learn==0.24.1
-scipy==1.6.2
-torch==1.8.1+cpu
+scipy==1.7.2
+torch==1.12.1
 ```
 توجه کنید که اگر کتاب‌خانه‌ی دیگیری را استفاده کرده باشید، بازی شما دچار مشکل می‌شود.
 
