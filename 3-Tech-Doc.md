@@ -61,11 +61,11 @@ pyinstaller --onefile /path/to/Client.py
 ### کتاب‌خانه‌های مجاز
 در کلاینت پایتون، شما می‌توانید از کتاب‌خانه‌های زیر استفاده کنید:
 ```
-numpy==1.20.2
-pandas==1.2.3
-scikit-learn==0.24.1
-scipy==1.6.2
-torch==1.8.1+cpu
+numpy==1.23.0
+pandas==1.4.3
+scikit-learn==1.1.1
+scipy==1.8.1
+torch==1.12.0
 ```
 توجه کنید که اگر کتاب‌خانه‌ی دیگیری را استفاده کرده باشید، بازی شما دچار مشکل می‌شود.
 
@@ -115,10 +115,16 @@ docker run --rm -v <path to your source code>:/src -it parsa2820/aic22-client-cp
 شما به عنوان شرکت‌کننده نیاز ندارید محتوای این فایل را بفهمید یا تغییر دهید. 
 
 ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC22-Game/tree/main/Server) دانلود کنید (فایل hideandseek-x.x.x.jar).  
-فایل game.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
+فایل map.yml را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC22-Game) دریافت کنید در کنار سرور در پوشه resources قرار دهید. 
 سپس سرور را به این شکل اجرا کنید:   
 ```
-java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to game.yml file>"
+java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>"
+```
+
+دقت کنید اگر میخواهید بعدا لاگ تولید شده را در محیط گرافیکی مشاهده کنید، باید پارامتر دیگری که مسیر فایل map.json است را نیز به دستور اجرای سرور اضافه کنید. این فایل نیز در همان مخزن بازی موجود است. به عبارت دیگر دستور اجرای سرور به صورت زیر می‌شود.
+
+```
+java -jar server.jar --first-team="<path to first team code>" --second-team="<path to second team code>" "<path to map.yml file>" "<path to map.json file>"
 ```
 
 ## توابع و کلاس‌های اصلی کلاینت
